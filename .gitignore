@@ -1,2 +1,5 @@
 
 env
+vk_photos\*
+.vscode
+vk_config.v2.json

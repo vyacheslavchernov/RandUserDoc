@@ -4,9 +4,30 @@
 }
 
 body {
-    background-color: black;   
+    background-color: rgb(43, 43, 43);   
 }
 
 .pic img {
     width: 100%;
+
+}
+
+.pic a {
+    display: block;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    height: 64px;
+    width: 64px;
+
+    text-align: center;
+
+    color: white;
+    background-color: #3d72c6;
+    border-radius: 25px;
+}
+
+.pic a p {
+    transform: translateY(32px) translateY(-50%);
 }
